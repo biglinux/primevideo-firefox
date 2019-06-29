@@ -1,0 +1,10 @@
+f72fedccd06ec8ff7d70c62acb67dcf1  usr/share/applications/primevideo-firefox.desktop
+b234ee4d69f5fce4486a80fdaf4a4263  usr/share/primevideo-firefox/LICENSE
+a0f630507fefaa011316b5830d855767  usr/share/primevideo-firefox/Makefile
+cc21f5db85721b6abc01f1271da9c1a3  usr/share/primevideo-firefox/README.md
+befaba9c5dfc845a248e0d0dc414e175  usr/share/primevideo-firefox/xseticon
+584f21274c1c1e1272271c129c9ff450  usr/share/primevideo-firefox/xseticon.c
+fc1a8d189777d94527f2a26859cc43f2  usr/share/primevideo-firefox/primevideo.png
+d5cd7540a784c604ce4608d783611811  usr/bin/primevideo-firefox
+d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
+0115161571c1fd8982157d7eeb55f765  DEBIAN/control
