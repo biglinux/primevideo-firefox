@@ -1,5 +1,5 @@
 Package: primevideo-firefox
-Version: 1.0.0-1big1
+Version: 1.0.0-1big2
 Depends: firefox|firefox-esr, x11-utils
 Architecture: all
 Maintainer: Bruno Goncalves <www.biglinux.com.br>
