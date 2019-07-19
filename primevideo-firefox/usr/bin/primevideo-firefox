@@ -61,6 +61,7 @@ echo \
 "user_pref(\"browser.tabs.warnOnClose\", false);" \
 >> "$DIR"/user.js
 
+sed -i 's|user_pref("browser.urlbar.placeholderName.*||g' "$DIR"/prefs.js
 
 firefox --class=firefoxprimevideocom -profile "$DIR" -no-remote -new-instance "https://www.primevideo.com/" &
 
