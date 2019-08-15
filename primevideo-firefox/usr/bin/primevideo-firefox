@@ -63,13 +63,13 @@ echo \
 
 sed -i 's|user_pref("browser.urlbar.placeholderName.*||g' "$DIR"/prefs.js
 
-firefox --class=firefoxprimevideocom -profile "$DIR" -no-remote -new-instance "https://www.primevideo.com/" &
+firefox --class=firefoxwebapp-primevideo -profile "$DIR" -no-remote -new-instance "https://www.primevideo.com/" &
 
 
 count=0
 while [  $count -lt 100 ]; do
-    if [ "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxprimevideocom")" != "" ]; then
-        /usr/share/primevideo-firefox/xseticon -id "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxprimevideocom" | awk '{print $1}')" /usr/share/primevideo-firefox/primevideo.png
+    if [ "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxwebapp-primevideo")" != "" ]; then
+        /usr/share/primevideo-firefox/xseticon -id "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxwebapp-primevideo" | awk '{print $1}')" /usr/share/primevideo-firefox/primevideo.png
         count=100
     else
         let count=count+1;
