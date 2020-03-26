@@ -1,11 +1,11 @@
+d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
+c9f68315b865513d5cbd2829c36ed289  DEBIAN/control
+0e3970e6df518c4a3c9698323caef6ec  usr/bin/primevideo-firefox
 a912047961ccc23ef6c5e4e5b1b4b498  usr/share/applications/primevideo-firefox.desktop
+fc1a8d189777d94527f2a26859cc43f2  usr/share/icons/hicolor/128x128/apps/primevideo.png
 b234ee4d69f5fce4486a80fdaf4a4263  usr/share/primevideo-firefox/LICENSE
 a0f630507fefaa011316b5830d855767  usr/share/primevideo-firefox/Makefile
 cc21f5db85721b6abc01f1271da9c1a3  usr/share/primevideo-firefox/README.md
+fc1a8d189777d94527f2a26859cc43f2  usr/share/primevideo-firefox/primevideo.png
 befaba9c5dfc845a248e0d0dc414e175  usr/share/primevideo-firefox/xseticon
 584f21274c1c1e1272271c129c9ff450  usr/share/primevideo-firefox/xseticon.c
-fc1a8d189777d94527f2a26859cc43f2  usr/share/primevideo-firefox/primevideo.png
-fc1a8d189777d94527f2a26859cc43f2  usr/share/icons/hicolor/128x128/apps/primevideo.png
-f5fc2475e22c1a5fbbfae9cd6e39eeb5  usr/bin/primevideo-firefox
-d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-916798f3094208932b3ae3de837a482c  DEBIAN/control
